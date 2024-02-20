@@ -18,7 +18,7 @@
                     default = pkgs.hello;
                 };
                 devShells.default = pkgs.mkShell {
-                    nativeBuildInputs = [
+                    packages = [
                         (pkgs.python3.withPackages python-pkgs)
                         pkgs.python311Packages.python-lsp-server
                         pkgs.nodePackages.nodemon
