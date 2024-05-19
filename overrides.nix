@@ -8,3 +8,6 @@ final: prev: let
   };
 in
   {} // addNativeBuildInputs "pathspec" [final.flit-core]
+     // addNativeBuildInputs "pygments" [final.hatchling]
+     // addNativeBuildInputs "pyzmq" [final.scikit-build-core]
+     // addNativeBuildInputs "scikit-build-core" [final.distlib]
