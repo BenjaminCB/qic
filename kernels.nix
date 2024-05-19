@@ -5,5 +5,6 @@
   kernel.python.qiskit-python = {
     enable = true;
     projectDir = ./my-custom-python;
+    overrides = ./overrides.nix;
   };
 }
