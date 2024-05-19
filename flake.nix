@@ -20,7 +20,6 @@
                     ];
 
                     shellHook = ''
-                        source .venv/bin/activate.fish
                     '';
                 };
             }
